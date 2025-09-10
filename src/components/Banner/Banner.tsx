@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div className="bg-orange-600">
+    <section className="bg-orange-600">
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
           aria-hidden="true"
@@ -32,6 +32,6 @@ export default function Banner() {
         >
         </div>
       </div>
-    </div>
+    </section>
   )
 }
