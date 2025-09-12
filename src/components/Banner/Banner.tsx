@@ -1,13 +1,8 @@
 export default function Banner() {
   return (
-    <section className="bg-orange-600">
+    <section className="bg-orange-600 background-black">
       <div className="relative isolate px-6 pt-14 lg:px-8">
-        <div
-          aria-hidden="true"
-          className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-        >
-        </div>
-        <div className="mx-auto max-w-1xl py-32 sm:py-32 lg:py-24">
+        <div className="mx-auto max-w-3xl py-32 sm:py-32 lg:py-24">
           <div className="text-center">
             <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
               A mais tradicional lanchonete da região!
@@ -16,20 +11,16 @@ export default function Banner() {
               Desde 1976 servindo os melhores lanches da região de Canoinhas/SC
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
-                className="rounded-md bg-green-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 flex items-center justify-center gap-2 m-0"
+              <button
+                className="btn rounded-md bg-green-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 flex items-center justify-center gap-2 m-0"
               >
-                Entrar em contato
+                <a href="">
+                  Entrar em contato
+                </a>
                 <img src="icons/wpp.webp" alt="test" width={30}/>
-              </a>
+              </button>
             </div>
           </div>
-        </div>
-        <div
-          aria-hidden="true"
-          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-        >
         </div>
       </div>
     </section>

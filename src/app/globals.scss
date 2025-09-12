@@ -4,6 +4,72 @@ main {
   min-height: 100vh;
 }
 
+.high-contrast {
+  background: #000 !important;
+  color: #ff0 !important;
+
+  a {
+    color: #ff0 !important;
+  }
+
+  .yellow-icon {
+    color: #ff0 !important;
+    background-color: #000 !important;
+    border: none !important;
+  }
+
+  header, 
+  footer, 
+  .background-black,
+  .dialog {
+    background: #000 !important;
+    color: #fff !important;
+  }
+
+  .login-btn {
+    background-color: #ff0;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #000;
+
+    &:hover {
+      background-color: #222;
+      color: #ff0;
+    }
+  }
+
+  .btn {
+    background: #222 !important;
+    font-weight: bold !important;
+    color: #ff0 !important;
+    border: 2px solid #ff0 !important;
+  }
+
+  label, .black-high-contrast {
+    color: #000 !important;
+    font-weight: bold !important;
+  }
+
+  input {
+    background: #000 !important;
+    color: #ff0 !important;
+    border: 1px solid #ff0 !important;
+    
+    &:focus {
+      outline: 2px solid #ff0 !important;
+      box-shadow: 0 0 5px #ff0 !important;
+    }
+  }
+
+  hr {
+    color: #000!important;
+  }
+
+  ::-webkit-scrollbar-thumb {
+  background-color: #FFF;
+}
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
