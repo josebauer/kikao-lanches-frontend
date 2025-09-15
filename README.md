@@ -5,6 +5,7 @@
 ## 🚀 Instalação
 
 1. Clone o repositório
+   
    SSH
    ```bash
    git clone git@github.com:josebauer/kikao-lanches-frontend.git
@@ -15,12 +16,12 @@
    ```
    
 
-2. Instale as dependências do app:
+3. Instale as dependências do app:
    ```bash
    npm install
    ```
 
-3. Crie um arquivo .env na pasta raiz do projeto:
+4. Crie um arquivo .env na pasta raiz do projeto:
    ```bash
    touch .env
    ```
@@ -29,12 +30,12 @@
    NEXT_PUBLIC_BASEURL=http://localhost:3000
    ```
 
-4. Rode o projeto:
+5. Rode o projeto:
    ```bash
    npm run dev
    ```
 
-5. Abra [http://localhost:3000](http://localhost:3000) em seu navegador para acessar a UI.
+6. Abra [http://localhost:3000](http://localhost:3000) em seu navegador para acessar a UI.
    
 ## 💻 Tecnologias Utilizadas
 
