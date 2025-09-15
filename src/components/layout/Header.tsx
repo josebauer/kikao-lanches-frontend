@@ -44,7 +44,7 @@ export default function Header() {
               width={70}
               height={70}
             />
-            <span className='font-semibold'>Kikão Lanches</span>
+            <p className='font-semibold'>Kikão Lanches</p>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -58,18 +58,18 @@ export default function Header() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <Link href="#" className="text-sm/6 font-semibold">
+          <Link href="#" className={`text-sm/6 font-semibold border-2 p-2 border-transparent hover:cursor-pointer rounded-lg ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"}`}>
             Cardápio
           </Link>
-          <Link href="#" className="text-sm/6 font-semibold">
+          <Link href="#" className={`text-sm/6 font-semibold border-2 p-2 border-transparent hover:cursor-pointer rounded-lg ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"}`}>
             Sobre nós
           </Link>
-          <Link href="#" className="text-sm/6 font-semibold">
+          <Link href="#" className={`text-sm/6 font-semibold border-2 p-2 border-transparent hover:cursor-pointer rounded-lg ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"}`}>
             Contato
           </Link>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 gap-3 lg:justify-end items-center">
-          <button className={`btn hover:cursor-pointer px-1 py-1 border-2 hover:border-white hover:rounded-full ${isHighContrast ? "border-white rounded-full" : "border-transparent"}`} title={isHighContrast ? "Desativar alto contraste" : "Ativar alto contraste"} onClick={() => setIsHighContrast(!isHighContrast)}>
+          <button className={`btn hover:cursor-pointer px-1 py-1 border-2 ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"} hover:rounded-full ${isHighContrast ? "border-white rounded-full" : "border-transparent"}`} title={isHighContrast ? "Desativar alto contraste" : "Ativar alto contraste"} onClick={() => setIsHighContrast(!isHighContrast)}>
             {isScrolled && !isHighContrast ? (
               <img src="/icons/contrast-orange.svg" alt="Alto Contraste" width={20} />
             ) : (
@@ -93,7 +93,7 @@ export default function Header() {
                 width={70}
                 height={70}
               />
-              <span className="font-semibold">Kikão Lanches</span> 
+              <p className="font-semibold">Kikão Lanches</p> 
             </Link>
             <button
               type="button"

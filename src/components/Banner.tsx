@@ -12,7 +12,7 @@ export default function Banner() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <button
-                className="btn rounded-md bg-green-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 flex items-center justify-center gap-2 m-0"
+                className="btn hover:cursor-pointer rounded-md bg-green-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 flex items-center justify-center gap-2 m-0"
               >
                 <a href="">
                   Entrar em contato

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "X-Bacon",
+    "description": "Delicioso hambúrguer com queijo, alface, tomate e molho especial.",
+    "price": 15.99,
+    "image": "/images/x-bacon.jpg",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "X-Salada",
+    "description": "Hambúrguer com queijo, alface, tomate e maionese.",
+    "price": 14.49,
+    "image": "/images/xsalada.png",
+    "featured": false
+  }
+]
