@@ -3,7 +3,8 @@
     "id": 1,
     "name": "X-Bacon",
     "description": "Delicioso hambúrguer com queijo, alface, tomate e molho especial.",
-    "price": 15.99,
+    "price": 21.00,
+    "category": "Lanches",
     "image": "/images/x-bacon.jpg",
     "featured": true
   },
@@ -11,8 +12,27 @@
     "id": 2,
     "name": "X-Salada",
     "description": "Hambúrguer com queijo, alface, tomate e maionese.",
-    "price": 14.49,
-    "image": "/images/xsalada.png",
+    "price": 16.50,
+    "category": "Lanches",
+    "image": "/images/x-salada.jpg",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "name": "Batata Frita",
+    "description": "Porção de batatas fritas crocantes.",
+    "price": 22.00,
+    "category": "Acompanhamentos",
+    "image": "/images/batata-frita.jpg",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "Cachorro Quente",
+    "description": "Cachorro quente com salsicha, molho especial, batata palha e queijo ralado.",
+    "price": 10.00,
+    "category": "Lanches",
+    "image": "/images/hot-dog.jpg",
     "featured": false
   }
 ]
