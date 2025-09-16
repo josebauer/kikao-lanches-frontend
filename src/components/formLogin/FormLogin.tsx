@@ -32,7 +32,7 @@ export default function FormLogin() {
               required
             />
           </div>
-          <button className="login-btn mt-4 w-full border-2 border-white bg-green-600 p-2 rounded-md text-white hover:bg-white hover:text-green-600 hover:border-green-600 hover:font-semibold hover:cursor-pointer transition-colors">
+          <button className="form-btn mt-4 w-full border-2 border-white bg-green-600 p-2 rounded-md text-white hover:bg-white hover:text-green-600 hover:border-green-600 hover:font-semibold hover:cursor-pointer transition-colors">
             Entrar
           </button>
         </form>

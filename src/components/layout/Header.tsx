@@ -34,7 +34,7 @@ export default function Header() {
 
   return (
     <header className={`sticky top-0 z-50 w-full ${isScrolled && !isHighContrast ? "shadow-md bg-white text-orange-600" : "bg-orange-600 text-white"} transition-all`}>
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-5 lg:px-8">
         <div className="flex lg:flex-1 items-center gap-3">
           <Link href="/" className="flex items-center gap-3 -m-1.5 p-1.5">
             <Image
@@ -64,7 +64,7 @@ export default function Header() {
           <Link href="#" className={`text-sm/6 font-semibold border-2 p-2 border-transparent hover:cursor-pointer rounded-lg ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"}`}>
             Sobre nós
           </Link>
-          <Link href="#" className={`text-sm/6 font-semibold border-2 p-2 border-transparent hover:cursor-pointer rounded-lg ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"}`}>
+          <Link href="/contato" className={`text-sm/6 font-semibold border-2 p-2 border-transparent hover:cursor-pointer rounded-lg ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"}`}>
             Contato
           </Link>
         </PopoverGroup>
