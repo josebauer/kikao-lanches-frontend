@@ -58,10 +58,10 @@ export default function Header() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <Link href="#" className={`text-sm/6 font-semibold border-2 p-2 border-transparent hover:cursor-pointer rounded-lg ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"}`}>
+          <Link href="/cardapio" className={`text-sm/6 font-semibold border-2 p-2 border-transparent hover:cursor-pointer rounded-lg ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"}`}>
             Cardápio
           </Link>
-          <Link href="#" className={`text-sm/6 font-semibold border-2 p-2 border-transparent hover:cursor-pointer rounded-lg ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"}`}>
+          <Link href="/sobre-nos" className={`text-sm/6 font-semibold border-2 p-2 border-transparent hover:cursor-pointer rounded-lg ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"}`}>
             Sobre nós
           </Link>
           <Link href="/contato" className={`text-sm/6 font-semibold border-2 p-2 border-transparent hover:cursor-pointer rounded-lg ${isScrolled && !isHighContrast ? "hover:border-orange-600" : "hover:border-white"}`}>
@@ -108,19 +108,19 @@ export default function Header() {
             <div className="-my-6 divide-y divide-white/10">
               <div className="space-y-2 py-6">
                 <Link
-                  href="#"
+                  href="/cardapio"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-orange-600 hover:bg-white/5"
                 >
                   Cardápio
                 </Link>
                 <Link
-                  href="#"
+                  href="/sobre-nos"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-orange-600 hover:bg-white/5"
                 >
                   Sobre nós
                 </Link>
                 <Link
-                  href="#"
+                  href="/contato"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-orange-600 hover:bg-white/5"
                 >
                   Contato
