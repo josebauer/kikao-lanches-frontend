@@ -34,6 +34,17 @@ export default function Header() {
 
   return (
     <header className={`sticky top-0 z-50 w-full ${isScrolled && !isHighContrast ? "shadow-md bg-white text-orange-600" : "bg-orange-600 text-white"} transition-all`}>
+       <a
+        href="#main-content"
+        className="
+          sr-only focus:not-sr-only
+          left-2 top-2 z-50 
+          rounded bg-orange-600 text-white
+          focus:outline-none focus:ring-2 focus:px-4 focus:absolute focus:py-2 focus:ring-white
+        "
+        >
+          Ir para o conteúdo principal
+        </a>
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-5 lg:px-8">
         <div className="flex lg:flex-1 items-center gap-3">
           <Link href="/" className="flex items-center gap-3 -m-1.5 p-1.5">

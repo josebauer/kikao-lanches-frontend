@@ -1,6 +1,6 @@
 export default function AboutUs() {
   return (
-    <main>
+    <main id="main-content">
 
     </main>
   )

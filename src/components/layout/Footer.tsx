@@ -8,9 +8,9 @@ export default function Footer() {
         <p className="font-semibold text-white ml-2">Kikão Lanches</p>
       </div>
       <div className="flex flex-col md:flex-row gap-4 md:gap-8">
-        <Link href="/cardapio" className="text-white">Cardapio</Link>
-        <Link href="/sobre-nos" className="text-white">Sobre nós</Link>
-        <Link href="/contato" className="text-white">Contato</Link>
+        <Link href="/cardapio" className="text-white border-2 border-transparent p-2 hover:border-white rounded-lg">Cardapio</Link>
+        <Link href="/sobre-nos" className="text-white border-2 border-transparent p-2 hover:border-white rounded-lg">Sobre nós</Link>
+        <Link href="/contato" className="text-white border-2 border-transparent p-2 hover:border-white rounded-lg">Contato</Link>
       </div>
       <p className="text-white">Desenvolvido por José Henrique Bauer</p>
     </footer>

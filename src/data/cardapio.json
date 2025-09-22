@@ -15,7 +15,7 @@
     "price": 16.50,
     "category": "Lanches",
     "image": "/images/x-salada.jpg",
-    "featured": false
+    "featured": true
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "price": 22.00,
     "category": "Acompanhamentos",
     "image": "/images/batata-frita.jpg",
-    "featured": false
+    "featured": true
   },
   {
     "id": 4,
@@ -33,6 +33,51 @@
     "price": 10.00,
     "category": "Lanches",
     "image": "/images/hot-dog.jpg",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "name": "Batata Frita Especial",
+    "description": "Batata frita com bacon.",
+    "price": 28.00,
+    "category": "Acompanhamentos",
+    "image": "/images/batata-frita-especial.jpg",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Bacon",
+    "description": "Bacon extra para incluir no seu lanche.",
+    "price": 8.00,
+    "category": "Adicionais",
+    "image": "/images/bacon.jpg",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Calabresa",
+    "description": "Calabresa extra para adicionar ao seu lanche.",
+    "price": 8.00,
+    "category": "Adicionais",
+    "image": "/images/calabresa.jpg",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Cebola",
+    "description": "Cebola extra para seu o lanche.",
+    "price": 3.00,
+    "category": "Adicionais",
+    "image": "/images/cebola.jpg",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Batata Frita Especial 2",
+    "description": "Batata Frita especial com Bacon e queijo ralado",
+    "price": 3.00,
+    "category": "Acompanhamentos",
+    "image": "/images/batata-frita-bacon-queijo.jpg",
     "featured": false
   }
 ]
